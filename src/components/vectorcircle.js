@@ -15,7 +15,7 @@ const vectorcircle = () => {
               </div>
               <div className="label">
               <Typography style={{fontFamily: 'Nunito',fontSize: '16px',fontStyle: 'normal',fontWeight: 400, lineHeight: '32px',letterSpacing: '0em' ,textAlign: 'cente', color: '#FFFFFF'
-}}>Label</Typography>
+}}>Likes</Typography>
               </div>
              </div>
              </div>
