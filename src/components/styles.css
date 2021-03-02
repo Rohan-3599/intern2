@@ -1,0 +1,324 @@
+ 
+.grid2{
+    position:absolute;
+    top : 862px;
+    height: 1219px;
+}
+
+.img-header{
+    margin-left: 143px;
+    margin-top : 0;
+    flex-grow: 1;
+}
+.navbar {
+    list-style-type: none;
+    
+}
+li.desktop {
+    display: inline-block;
+    margin-right: 37px;
+    cursor:pointer;
+}
+li.mobileicon{
+    display: inline-block;
+    cursor:pointer;
+    margin-left: 25px;
+}
+.div-gradient {
+    position:absolute;
+    height: 96px;
+    width: 383px;
+    left: 151px;
+    top: 246px;
+}
+.div-text{
+    position:absolute;
+    height: 64px;
+width: 611px;
+left: 151px;
+top: 366px;
+border-radius: nullpx;
+opacity: 0.6;
+}
+
+
+.circle{
+position:absolute;
+height: 208px;
+width: 208px;
+border: 1px solid rgba(255, 255, 255, .2);
+border-radius: 50%;
+box-sizing: border-box;
+}
+.substract{
+position: absolute;
+height: 208px;
+width: 177.27854919433594px;
+margin-left: 32.9px;
+background-image: url("../images/Subtract.png");
+}
+.content{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+margin: 52px auto;
+width: 39px;
+height: 104px;
+}
+.icon {
+height: 25.000001907348633px;
+width: 28.005409240722656px;
+margin-left: 2px;
+margin-top: 3px;
+border-radius: 0px;
+}
+.zero{
+height: 32px;
+width: 18px;
+margin-left: 8px;
+margin-top: 0px;
+border-radius: nullpx;
+
+}
+.label{
+height: 32px;
+width: 39px;
+margin-left: -3px;
+border-radius: nullpx;
+opacity: 0.5;
+}
+
+.upcoming{
+    height: 40px;
+    margin-left: 0px; 
+}
+.view{
+    height: 40px;
+    margin-left: 800px;
+    margin-top:10px;
+    cursor: pointer;
+    opacity: 0.98;
+    border-radius: 8px;  
+}
+.element{
+top: 40px;
+height: 3px;
+width: 48px;
+border-radius: 16px;
+background: #0259EB;
+}
+.background{
+position: absolute;
+height: 344px;
+width: 268px;
+left: 22px;
+top: 2px;
+border-radius: 8px;
+background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
+}
+.arrow{
+height: 13.5px;
+width: 18.75px;
+margin-left: 10px;
+margin-top: 10px;
+border-radius: 0px;
+cursor: pointer;
+}
+.line{
+    position: absolute;
+    height: 32px;
+    width: 1px;
+    left: 210px;
+    top: 298px;
+    background-color: #FFFFFF;
+    opacity: 0.1;
+    z-index: 2;
+}
+.ticket{
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+width: 40px;
+left: 225px;
+top: 295px;
+border-radius: 2px;
+z-index: 2;
+}
+
+.background2{
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    left: 20px;
+    top: 0px;   
+background: linear-gradient(143.63deg, #276C73 5.43%, #5293E8 110.6%);
+border-radius: 16px;
+}
+.review-image{
+    height: 48px;
+width: 48px;
+margin-top: 4px;
+border-radius: 0px;
+
+}
+.header{
+    position:absolute;
+    display: flex;
+    height: 56px;
+width: 212.5px;
+left: 24px;
+top: 40px;
+border-radius: 0px;
+/* background-color:blanchedalmond; */
+}
+.flag{
+ height: 24px;
+width: 24px;
+
+
+}
+.name-info{
+    width: 100%;
+    margin-left: 10px;
+}
+.small-box{
+    margin-top: -5px;
+    display: flex;
+}
+.review{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        left: 1010px;
+        top: 10px;
+        opacity: 0.98;
+       border-radius: 8px;
+       display:flex;
+
+}
+.vector2{
+    height: 13.500000000000206px;
+width: 18.750000000000288px;
+margin-left: 26px;
+margin-top:10px;
+cursor: pointer;
+}
+.vector3{
+height: 13.500000000000052px;
+width: 18.75000000000007px;
+margin-left: 16px;
+margin-top:10px;
+cursor: pointer;
+}
+.new-div{
+    position:absolute;
+    height: 942px;
+    width: 1151px;
+    left: 191px;
+    top: 200px;
+    /* background-color: black; */
+    }
+    .div-circle{
+        position: absolute;
+        height: 267px;
+        width: 1140px;
+        left: 241px;
+        top: 621px;
+        border-radius: 0px;
+        display: flex;
+        }
+    .div-circle-2{
+        position: relative;
+        height: 267px;
+        width: 267px;
+        border-radius: 0px;
+            
+        }
+   .grid1 {
+        position : relative;
+        height: 862px ; 
+        background-image: url("../images/home.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        } 
+.grid-container{
+    display:flex;
+    width: 100%;
+    /* position: relative; */
+}
+/* responsive */
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (max-width: 768px) { 
+    .new-div{
+        left: 20px;
+        /* background-color: black; */
+        }
+        .div-circle{
+            left: 20px;
+            }
+        .div-circle-2{
+            position: relative;
+            height: 267px;
+            width: 267px;
+            border-radius: 0px;
+                
+            }
+            .div-gradient {
+                left: 20px;    
+            }   
+            .img-header{
+                margin-left: 20px;
+            }
+            .div-text{
+                width: 361px;
+                left: 20px;
+                top: 330px;
+                
+            }
+ }
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 979px) { 
+    .new-div{
+        left: 100px;
+        /* background-color: black; */
+        }
+        .div-circle{
+            left: 150px;
+            }
+        .div-circle-2{
+            position: relative;
+            height: 267px;
+            width: 267px;
+            border-radius: 0px;
+                
+            }
+            .div-gradient {
+                left: 100px;
+            }
+            .img-header{
+                margin-left: 83px;
+            }
+            .div-text{
+                width: 411px;
+                left: 100px;
+                top: 340px;
+                
+            }
+        }
+        @media (max-width: 1536px){
+             .view{
+                margin-left: calc(100%-50px);
+             }
+             .grid-container{
+                 width: calc(100%-50px)
+             }
+        }
+/* Large (lg) devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { 
+    
+ } */
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { 
+    
+ } */
