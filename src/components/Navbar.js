@@ -3,7 +3,7 @@ import React,{useState , useEffect} from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import logo from '../images/image52.png';
 import SearchIcon from '@material-ui/icons/Search';
-import ShoppingBasketOutlinedIcon from '@material-ui/icons/ShoppingBasketOutlined';
+import HomeWorkIcon from '@material-ui/icons/HomeWork';
 import MenuIcon from '@material-ui/icons/Menu';
 import './styles.css'
 
@@ -49,7 +49,7 @@ const Navbar = () => {
       </li>
       <li className="mobileicon">
       <IconButton size="small" >
-                <ShoppingBasketOutlinedIcon style={{ color: '#FFFFFF' }} className={classes.mobile} />
+                <HomeWorkIcon style={{ color: '#FFFFFF' }} className={classes.mobile} />
               </IconButton >
       </li>
       <li className="mobileicon">
@@ -85,7 +85,7 @@ const Navbar = () => {
                 Account
                   </Typography></li>
               <li className="desktop"> <IconButton size="small" >
-                <ShoppingBasketOutlinedIcon style={{ color: '#FFFFFF' }} className={classes.SearchIcon} />
+                <HomeWorkIcon style={{ color: '#FFFFFF' }} className={classes.SearchIcon} />
               </IconButton ></li>
             </ul>}
         </Toolbar>
