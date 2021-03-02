@@ -2,7 +2,6 @@ import React,{useEffect} from 'react'
 import { Box , Container ,  Grid, Typography } from '@material-ui/core'
 import Navbar from './Navbar'
 import Vectorcircle from './vectorcircle'
-import Circle from './circle'
 import useStyles from './hookstyles'
 import userReview from './userReview';
 import vector2 from '../images/Vector2.png'
@@ -11,6 +10,7 @@ import Upcomingcard from './Upcomingcard'
 import Reviewcard from './Reviewcard'
 import {useSelector , useDispatch} from 'react-redux'
 import { getData } from '../redux/action'
+
 const Divcontainer = () => {
   const classes = useStyles();
   const data = useSelector((state) => state);
@@ -32,13 +32,13 @@ const Divcontainer = () => {
         <div className="div-text">
           <Typography className={classes.text}>
             Live from their sofa to yours. Get closer to your favourite houses, and never miss out.
-</Typography>
+          </Typography>
         </div>
         <div className="div-circle">
           <Vectorcircle />
-          <Circle />
-          <Circle />
-          <Circle />
+          <Vectorcircle />
+          <Vectorcircle />
+          <Vectorcircle />
 
         </div>
       </Grid >

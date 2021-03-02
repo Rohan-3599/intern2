@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Container from './components/Container'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import './components/styles.css';
+import Footer from './components/Footer'
 const useStyles = makeStyles((theme) => {
 } )
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <React.Fragment>
       <CssBaseline />
       <Container />
+      <Footer />
     </React.Fragment>
     )
 }

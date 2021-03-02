@@ -1,4 +1,4 @@
- 
+
 .grid2{
     position:absolute;
     top : 862px;
@@ -38,7 +38,7 @@ width: 611px;
 left: 151px;
 top: 366px;
 border-radius: nullpx;
-opacity: 0.6;
+opacity: 1;
 }
 
 
@@ -46,7 +46,8 @@ opacity: 0.6;
 position:absolute;
 height: 208px;
 width: 208px;
-border: 1px solid rgba(255, 255, 255, .2);
+background-color: rgba(255, 255, 255, 0.7);
+border: 1px solid rgba(255, 255, 255, 0.2);
 border-radius: 50%;
 box-sizing: border-box;
 }
@@ -86,7 +87,6 @@ height: 32px;
 width: 39px;
 margin-left: -3px;
 border-radius: nullpx;
-opacity: 0.5;
 }
 
 .upcoming{
@@ -157,16 +157,15 @@ background: linear-gradient(143.63deg, #276C73 5.43%, #5293E8 110.6%);
 border-radius: 16px;
 }
 .review-image{
-    height: 48px;
+height: 48px;
 width: 48px;
 margin-top: 4px;
 border-radius: 0px;
-
 }
 .header{
-    position:absolute;
-    display: flex;
-    height: 56px;
+position:absolute;
+display: flex;
+height: 56px;
 width: 212.5px;
 left: 24px;
 top: 40px;
@@ -174,10 +173,8 @@ border-radius: 0px;
 /* background-color:blanchedalmond; */
 }
 .flag{
- height: 24px;
+height: 24px;
 width: 24px;
-
-
 }
 .name-info{
     width: 100%;
@@ -251,6 +248,52 @@ cursor: pointer;
     display:flex;
     width: 100%;
     position: relative;
+}
+.footer-section {
+	background: #081624;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.footer-section .reserved {
+	float: left;
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #ffffff;
+	opacity: 0.37;
+}
+
+.footer-section .social-links {
+	float: right;
+}
+
+.footer-section .social-links a {
+	display: inline-block;
+	margin-left: 36px;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+}
+
+.footer-section .social-links a:hover:after {
+	opacity: 1;
+}
+
+.footer-section .social-links a:after {
+	position: absolute;
+	left: -18px;
+	top: -12px;
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	background: #82D026;
+	content: "";
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	z-index: -1;
+	opacity: 0;
 }
 /* responsive */
 /* Small (sm) devices (landscape phones, 576px and up) */

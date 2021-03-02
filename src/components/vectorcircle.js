@@ -10,18 +10,17 @@ const vectorcircle = () => {
              <div className="icon">
               <img src={Vector} />
               <div className="zero">
-                <Typography style={{fontFamily: 'Libre Baskerville',fontSize: '24px',fontStyle: 'normal',fontWeight: 400, lineHeight: '32px',letterSpacing: '0em' ,textAlign: 'cente', color: '#FFFFFF'
+                <Typography style={{fontFamily: 'Libre Baskerville',fontSize: '24px',fontStyle: 'normal',fontWeight: 600, lineHeight: '32px',letterSpacing: '0em' ,textAlign: 'cente', color:  '#0259EB'
 }}>0</Typography>
               </div>
               <div className="label">
-              <Typography style={{fontFamily: 'Nunito',fontSize: '16px',fontStyle: 'normal',fontWeight: 400, lineHeight: '32px',letterSpacing: '0em' ,textAlign: 'cente', color: '#FFFFFF'
+              <Typography style={{fontFamily: 'Nunito',fontSize: '16px',fontStyle: 'normal',fontWeight: 600, lineHeight: '32px',letterSpacing: '0em' ,textAlign: 'cente', color:  '#0259EB'
 }}>Likes</Typography>
               </div>
              </div>
              </div>
          </div>
-         <div className="substract">
-         </div>
+        
         </div>
     )
 }
