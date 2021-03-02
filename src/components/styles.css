@@ -94,8 +94,9 @@ opacity: 0.5;
     margin-left: 0px; 
 }
 .view{
+    position:absolute;
     height: 40px;
-    margin-left: 800px;
+    right: 30px;
     margin-top:10px;
     cursor: pointer;
     opacity: 0.98;
@@ -249,7 +250,7 @@ cursor: pointer;
 .grid-container{
     display:flex;
     width: 100%;
-    /* position: relative; */
+    position: relative;
 }
 /* responsive */
 /* Small (sm) devices (landscape phones, 576px and up) */
@@ -310,14 +311,7 @@ cursor: pointer;
                 
             }
         }
-        @media (max-width: 1536px){
-             .view{
-                margin-left: calc(100%-50px);
-             }
-             .grid-container{
-                 width: calc(100%-50px)
-             }
-        }
+        
 /* Large (lg) devices (desktops, 992px and up) */
 /* @media (min-width: 992px) { 
     
